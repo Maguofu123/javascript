@@ -1,1 +1,2 @@
 # javascript
+# day 1
