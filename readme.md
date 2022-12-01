@@ -88,3 +88,105 @@ map键值对，类似字典
 set无序不重复的集合
 
 `add`添加,`delete`删除，`has`是否含有
+
+# day 3
+## 定义函数
+如果没有return，返回undefined
+
+**方式1**
+
+`function f(x){[return]}`
+
+**方式2**
+
+`var f = function(x){[return]}`这是一个匿名函数，把结果赋值给f，通过f调用函数
+
+`arguments`获得所有参数
+
+`...rest`参数放在函数最后，获取已经定义的参数之外的所有参数
+
+## 变量作用域
+var如果在函数体内定义，在函数体外不可用
+
+函数查找由内层函数向外层函数查找
+
+变量定义在函数体外部即全局变量
+
+全局对象window
+
+变量向外查找，函数体内→全局window
+
+## 规范
+如何减少不同js文件的冲突
+
+把自己的代码放入自己定义的唯一空间中，降低命名冲突
+
+**局部作用域**
+
+使用`let`定义局部作用域
+
+**常量**
+
+`const`
+
+**方法**
+
+方法就是把函数放在对象里面，对象有方法和属性两个东西
+
+this默认指向调用它的对象
+
+`apply(object,arguments)`控制this指向
+
+## 内部对象
+
+日期Date，  `Date.Time`是时间戳
+
+
+- 对象都用{}
+- 数组都用[]
+- 所有的键值对都是用key:value
+
+## JSON
+
+json和js对象的转换
+
+json.stringify()
+
+json.parse()
+
+**json和js对象的区别**
+
+![image](https://user-images.githubusercontent.com/91414286/205037894-a4b79a1b-e432-472c-8060-7ad68118021d.png)
+js对象
+
+![image](https://user-images.githubusercontent.com/91414286/205038026-1c41cd3a-6d2e-4503-b4c2-bba8b2577aee.png)
+json
+
+**Ajax**
+
+## 面向对象编程
+
+- 原型继承：`object.__proto__`
+
+- class继承：定义一个类，属性，方法 和 java类似
+
+**原型链**
+
+
+## 操作BOM
+浏览器对象模型：
+内核ie，chrome，safari，firefox
+
+window代表浏览器窗口
+
+`Navigator`
+
+`screen`
+
+`location`**（重要）** 代表当前页面的URL信息
+
+`document`当前页面信息，获取文档树节点，获取网页cookie
+
+`history`
+
+## 操作DOM
