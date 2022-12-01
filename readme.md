@@ -190,3 +190,5 @@ window代表浏览器窗口
 `history`
 
 ## 操作DOM
+
+使用`document`
