@@ -214,3 +214,23 @@ value获得值，单选框checked检查是否选择
 
 **提交表单**
 
+绑定事件，按钮级别`onclick=function()`，表单级别`onsubmit=function()`
+
+md5加密
+
+## jQuery
+
+里面存在大量的js函数 
+
+公式`$(selector).action()`，选择器就是css的选择器
+
+原生js选择器少
+
+## action()事件
+
+获取鼠标当前坐标
+
+## 操作DOM
+
+
+
